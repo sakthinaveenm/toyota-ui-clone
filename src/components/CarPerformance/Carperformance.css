@@ -1,0 +1,37 @@
+.bg-carperformance {
+  background-image: url("https://static2.toyotabharat.com/images/common/performance-bg-1920x2248.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+.carperformance-main-heading {
+  color: #eacd58;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: ToyotaType-Bold;
+  padding: 50px;
+}
+
+.carperformance-sub-heading {
+  font-size: 16px;
+  color: #ffcc00;
+  font-family: ToyotaType-Regular;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 17.6px;
+}
+.carperformance-section-space {
+  padding-left: 200px;
+}
+
+.carperformance-sub-heading-content {
+  color: #eeeeee;
+  line-height: 16.5px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: ToyotaType-Bold;
+  line-height: 16.5px;
+  padding-top: 20px;
+}

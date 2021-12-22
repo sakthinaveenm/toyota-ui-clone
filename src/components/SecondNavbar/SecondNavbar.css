@@ -1,0 +1,23 @@
+.bg-black {
+  background-color: #000000;
+}
+.link-second-navbar {
+  color: #dfcc76;
+  margin: 1%;
+  padding-left: 50px;
+  font-size: 12px;
+  font-family: ToyotaType-Bold;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.second-navbar {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 74px !important;
+  z-index: 1000;
+  display: block !important;
+}
+.link-second-navbar:hover {
+  color: #ffffff;
+  cursor: pointer;
+}

@@ -1,0 +1,96 @@
+@import url(//db.onlinewebfonts.com/c/edc9e16a9dd21292d1f402798a3f3028?family=ToyotaType-Bold);
+@import url(//db.onlinewebfonts.com/c/5ed8da50826369dfd20fd9e532593c99?family=ToyotaType-Regular);
+@font-face {
+  font-family: "ToyotaType-Bold";
+  src: url("//db.onlinewebfonts.com/t/edc9e16a9dd21292d1f402798a3f3028.eot");
+  src: url("//db.onlinewebfonts.com/t/edc9e16a9dd21292d1f402798a3f3028.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/edc9e16a9dd21292d1f402798a3f3028.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/edc9e16a9dd21292d1f402798a3f3028.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/edc9e16a9dd21292d1f402798a3f3028.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/edc9e16a9dd21292d1f402798a3f3028.svg#ToyotaType-Bold")
+      format("svg");
+}
+@font-face {
+  font-family: "ToyotaType-Regular";
+  src: url("//db.onlinewebfonts.com/t/5ed8da50826369dfd20fd9e532593c99.eot");
+  src: url("//db.onlinewebfonts.com/t/5ed8da50826369dfd20fd9e532593c99.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5ed8da50826369dfd20fd9e532593c99.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/5ed8da50826369dfd20fd9e532593c99.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/5ed8da50826369dfd20fd9e532593c99.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/5ed8da50826369dfd20fd9e532593c99.svg#ToyotaType-Regular")
+      format("svg");
+}
+.dfc {
+  display: flex;
+  flex-direction: column;
+}
+
+.dfr {
+  display: flex;
+  flex-direction: row;
+}
+.space-navbar-list {
+  margin-left: 20px;
+  margin-top: 0.5%;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: ToyotaType-Bold;
+  font-weight: 600;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+/*  */
+.dummy .space-navbar-list {
+  border: none;
+  position: relative;
+}
+.dummy .space-navbar-list {
+  border: none;
+}
+.dummy:hover {
+  border-bottom: 5px solid #ffffff;
+}
+.space-navbar-list::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 50%;
+  bottom: -5px;
+  background-color: #dd1122;
+
+  transition: all ease-in-out 0.2s;
+}
+.space-navbar-list:hover::after {
+  width: 100%;
+  left: 0;
+}
+.space-navbar-list:hover {
+  cursor: pointer;
+  color: #dd1122;
+}
+.contact-us-navbar {
+  position: absolute;
+  right: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: ToyotaType-Bold;
+  font-weight: 600;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  float: right !important;
+}
+.contact-us-navbar:hover {
+  color: #dd1122;
+  cursor: pointer;
+}

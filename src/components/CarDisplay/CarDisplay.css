@@ -1,0 +1,101 @@
+.car-color-button {
+  margin-top: 10px;
+  padding: 13px 25px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.center-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.grey-btn {
+  background-color: #dcdcdc;
+}
+
+.space-btn {
+  padding: 2px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.space-btn:hover {
+  border-bottom: 2px solid red;
+}
+
+.red-btn {
+  background-color: #a91513;
+}
+
+.blue-btn {
+  background-color: #0e3a77;
+}
+
+.black-btn {
+  background-color: #4c4c4c;
+}
+
+.light-grey-btn {
+  background-color: #9f9f9f;
+}
+.hover-effect-car {
+  transition: width 2s;
+  transition-timing-function: ease;
+  animation: swipe 0.6s;
+  animation-duration: 0.6s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: backwards;
+  animation-play-state: running;
+  animation-name: swipe;
+}
+@keyframes swipe {
+  0% {
+    -webkit-clip-path: inset(0 0 0 100%);
+    clip-path: inset(0 0 0 100%);
+  }
+  10% {
+    -webkit-clip-path: inset(0 0 0 90%);
+    clip-path: inset(0 0 0 90%);
+  }
+  20% {
+    -webkit-clip-path: inset(0 0 0 80%);
+    clip-path: inset(0 0 0 80%);
+  }
+  30% {
+    -webkit-clip-path: inset(0 0 0 70%);
+    clip-path: inset(0 0 0 70%);
+  }
+  40% {
+    -webkit-clip-path: inset(0 0 0 60%);
+    clip-path: inset(0 0 0 60%);
+  }
+  50% {
+    -webkit-clip-path: inset(0 0 0 50%);
+    clip-path: inset(0 0 0 50%);
+  }
+  60% {
+    -webkit-clip-path: inset(0 0 0 40%);
+    clip-path: inset(0 0 0 40%);
+  }
+  70% {
+    -webkit-clip-path: inset(0 0 0 30%);
+    clip-path: inset(0 0 0 30%);
+  }
+  80% {
+    -webkit-clip-path: inset(0 0 0 20%);
+    clip-path: inset(0 0 0 20%);
+  }
+  90% {
+    -webkit-clip-path: inset(0 0 0 10%);
+    clip-path: inset(0 0 0 10%);
+  }
+
+  100% {
+    -webkit-clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 0 0);
+  }
+}
